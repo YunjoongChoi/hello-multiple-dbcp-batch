@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    master:
+      driverClassName: org.h2.Driver
+      jdbcUrl: jdbc:h2:mem:master;
+      username: abc
+      password: abc
+    slave:
+      driverClassName: org.h2.Driver
+      jdbcUrl: jdbc:h2:mem:slave;
+      username: abc
+      password: abc
